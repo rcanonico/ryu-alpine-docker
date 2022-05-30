@@ -10,7 +10,7 @@ This leads to an image that is about half the size of the official image.
 ## Build
 
 ```bash
-docker build --rm -f Dockerfile -t ryu-alpine:latest .
+docker build --rm -t ryu-alpine:latest -f Dockerfile .
 ```
 
 
